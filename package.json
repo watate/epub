@@ -1,9 +1,13 @@
 {
-  "name": "epub",
+  "name": "epub-w",
   "description": "Parse ePub electronic book files with Node.JS",
-  "version": "1.2.1",
-  "author": "Andris Reinman",
+  "version": "1.0.0",
+  "author": "Walter Tay Ann Lee",
   "contributors": [
+    {
+      "name": "Walter",
+      "email": "walter.spades@gmail.com"
+    },
     {
       "name": "andris",
       "email": "andris@node.ee"
@@ -14,10 +18,10 @@
       "url": "https://github.com/julien-c"
     }
   ],
-  "homepage": "http://github.com/julien-c/epub",
+  "homepage": "https://github.com/watate/epub",
   "repository": {
     "type": "git",
-    "url": "http://github.com/julien-c/epub.git"
+    "url": "https://github.com/watate/epub.git"
   },
   "files": [
     "epub.js",
@@ -28,7 +32,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/julien-c/epub/blob/master/LICENSE"
+      "url": "https://github.com/watate/epub/blob/master/LICENSE"
     }
   ],
   "engine": [
@@ -40,15 +44,18 @@
   ],
   "dependencies": {
     "adm-zip": "^0.4.11",
-    "xml2js": "^0.4.23"
+    "minimatch": "^9.0.4",
+    "minimist": "^1.2.8",
+    "tar": "^7.1.0",
+    "xml2js": "^0.6.2"
   },
   "optionalDependencies": {
-    "zipfile": "^0.5.11"
+    "zipfile": "^0.2.2"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.11.7",
-    "mocha": "^5.2.0",
+    "mocha": "^10.4.0",
     "p-event": "^4",
     "typescript": "3.6.4"
   },
