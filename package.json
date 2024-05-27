@@ -1,27 +1,17 @@
 {
-  "name": "epub-w",
+  "name": "@watate/epub",
   "description": "Parse ePub electronic book files with Node.JS",
   "version": "1.0.0",
-  "author": "Walter Tay Ann Lee",
+  "author": "Walter Tay Ann Lee <walter.spades@gmail.com> (https://waltertay.com/)",
   "contributors": [
-    {
-      "name": "Walter",
-      "email": "walter.spades@gmail.com"
-    },
-    {
-      "name": "andris",
-      "email": "andris@node.ee"
-    },
-    {
-      "name": "Julien Chaumond",
-      "email": "chaumond@gmail.com",
-      "url": "https://github.com/julien-c"
-    }
+    "Walter <walter.spades@gmail.com>",
+    "andris <andris@node.ee>",
+    "Julien Chaumond <chaumond@gmail.com> (https://github.com/julien-c)"
   ],
   "homepage": "https://github.com/watate/epub",
   "repository": {
     "type": "git",
-    "url": "https://github.com/watate/epub.git"
+    "url": "git+https://github.com/watate/epub.git"
   },
   "files": [
     "epub.js",
@@ -62,5 +52,13 @@
   "scripts": {
     "pretest": "tsc",
     "test": "mocha dist/test/ --exit"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/watate/epub/issues"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "license": "MIT"
 }
